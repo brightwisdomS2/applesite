@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+#wrap {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    border: 1px solid
+}
+
+.section {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+
+.section .inner-con {
+    width: 100%;
+    max-width: 2600px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid;
+    text-align: center;
+}
+
+.section .inner-con .sec.con1 {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+
+.section .inner-con .sec.con2 {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+
+.section .inner-con .sec.con3 {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+
+.section .inner-con .sec.con4 {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+}
+
+.section .inner-con .sec.con4::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.section .inner-con .sec.con4 > ul > li {
+    width: 50%;
+    height: 600px;
+    border: 1px solid;
+    box-sizing: border-box;
+    float: left;
+    border: 6px solid #fff;
+/*
+    padding: 10px;
+*/
+    box-sizing: border-box;
+
+}
+
+.section .inner-con .sec.con4 > ul > li:nth-child(1) {
+    background: url(../img/sec4-00.png) no-repeat 50%;
+    background-size: cover;
+    color: #fff;
+}
+.section .inner-con .sec.con4 > ul > li:nth-child(2) {
+    background: url(../img/sec4-01.png) no-repeat 50%;
+    background-size: cover;
+}
+.section .inner-con .sec.con4 > ul > li:nth-child(3) {
+    background: url(../img/sec4-00.png) no-repeat 50%;
+    background-size: cover;
+}
+.section .inner-con .sec.con4 > ul > li:nth-child(4) {
+    background: url(../img/sec4-01.png) no-repeat 50%;
+    background-size: cover;
+}
+.section .inner-con .sec.con4 > ul > li:nth-child(5) {
+    background: url(../img/sec4-00.png) no-repeat 50%;
+    background-size: cover;
+}
+.section .inner-con .sec.con4 > ul > li:nth-child(6) {
+    background: url(../img/sec4-01.png) no-repeat 50%;
+    background-size: cover;
+}
+
+.section .inner-con .sec.con4 > ul > li .inner-sec {
+    width: 100%;
+    height: 600px;
+    border: 1px solid;
+    box-sizing: border-box;
+/*
+    background: #ccc;
+*/
+    position: relative;
+}
+
+.section .inner-con .sec.con4 > ul > li .inner-sec .secTxt {
+  /*  width: 300px;*/
+    height: auto;
+    border: 1px solid #f00;
+/*    position: absolute;
+    left: 50%;
+    margin-left: -150px;*/
+    text-align: center;
+    color: #fff;
+    margin-top: 51px;
+}
+.section .inner-con .sec.con4 > ul > li .inner-sec .secTxt p.title{
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 45px;
+}
+.section .inner-con .sec.con4 > ul > li .inner-sec .secTxt h5.sub{
+    font-size: 18px;
+    line-height: 33px;
+}
+.section .inner-con .sec.con4 > ul > li .inner-sec .secTxt .bletter{
+    color: #2997ff;
+}
+.section .inner-con .sec.con4 > ul > li .inner-sec .secTxt .bletter a{
+    color: #2997ff;
+}

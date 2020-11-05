@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+.header {
+    width: 100%;
+    height: auto;
+    border: 1px solid;
+
+}
+
+.header .inner-header {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+.header .inner-header::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.header .inner-header h1.logo {
+    width: 10%;
+    height: 50px;
+    border: 1px solid;
+    box-sizing: border-box;
+    float: left;
+}
+
+.header .inner-header span.menu {
+    display: block;
+    width: 10%;
+    height: 50px;
+    border: 1px solid;
+    box-sizing: border-box;
+    float: left;
+    display: none;
+}
+
+.header .inner-header .gnb {
+    width: 80%;
+    height: 50px;
+    border: 1px solid #f00;
+    box-sizing: border-box;
+    float: left;
+}
+.header .inner-header .gnb>ul>li .sub{
+    display: none;
+}
+
+.header .inner-header .gnb>ul>li{
+    width: 12.5%;
+    line-height: 50px;
+    border: 1px solid;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+}
+.header .inner-header .gnb>ul>li a{
+    display: block;
+    background: #000;
+    color: #fff;
+}
+.header .inner-header .gnb>ul>li .sub{
+    display: none;
+}
+
+.header .inner-header .gnb>ul>li a:hover{
+    background: #ffc000;
+}
+.header .inner-header .gnb>ul>li:hover .sub{
+    display: block;
+    background: #f00;
+    position: relative;
+    z-index: 5;
+}
+.header .inner-header .gnb>ul>li .sub>ul>li{
+    line-height: 30px;
+    font-size: 13px;
+
+}
+
+
+.header .inner-header .cart{
+    width: 10%;
+    height: 50px;
+    border: 1px solid;
+    box-sizing: border-box;
+    float: left;
+}
+.nav{
+    width: 100%;
+    max-width: 1600px;
+    height: 600px;
+    border: 1px solid;
+    box-sizing: border-box;
+    margin: 10px auto;
+    background: #cc0;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    line-height: 600px;
+}
